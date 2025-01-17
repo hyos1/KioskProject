@@ -2,9 +2,9 @@ package com.example.kiosk.mykiosk;
 
 public class MenuItem {
 
-    private String menuName;
-    private double price;
-    private String menuInfo;
+    private final String menuName;
+    private final double price;
+    private final String menuInfo;
 
     public MenuItem(String menuName, double price, String menuInfo) {
         this.menuName = menuName;

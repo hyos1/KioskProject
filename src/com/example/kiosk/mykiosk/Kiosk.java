@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Kiosk {
-    private List<Menu> menus;
+    private final List<Menu> menus;
 
     public Kiosk(List<Menu> menus) {
         this.menus = menus;

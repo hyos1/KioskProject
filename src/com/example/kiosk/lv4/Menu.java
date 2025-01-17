@@ -1,5 +1,8 @@
 package com.example.kiosk.lv4;
 
-public class Menu {
+//mykiosk에서 구현함
 
-}
+
+//public class Menu {
+//
+//}

@@ -1,12 +1,11 @@
 package com.example.kiosk.mykiosk;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Menu {
 
-    private String categoryName;
-    private List<MenuItem> menuItems;
+    private final String categoryName;
+    private final List<MenuItem> menuItems;
 
     public Menu(String categoryName, List<MenuItem> menuItems) {
         this.categoryName = categoryName;
