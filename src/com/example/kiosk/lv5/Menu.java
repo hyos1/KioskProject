@@ -1,4 +1,4 @@
-package com.example.kiosk.mykiosk;
+package com.example.kiosk.lv5;
 
 import java.util.List;
 

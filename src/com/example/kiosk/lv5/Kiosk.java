@@ -1,4 +1,4 @@
-package com.example.kiosk.mykiosk;
+package com.example.kiosk.lv5;
 
 import java.util.List;
 import java.util.Scanner;
@@ -38,12 +38,13 @@ public class Kiosk {
 
             if (chooseMenu == 0) {
                 continue;
-            } else if (chooseMenu > 0 && chooseMenu < menus.size()) {
+            } else if (chooseMenu > 0 && chooseMenu <= selectedMenu.getMenuItems().size()) {
                 MenuItem menuItem = selectedMenu.getMenuItems().get(chooseMenu - 1);
                 System.out.println("선택한 메뉴: " + menuItem);
-//                Menu menu = menus.get(chooseMenu - 1);
-//                System.out.println(menu);
+            } else {
+                System.out.println("잘못된 값입니다.");
             }
+//            chooseMenu < menus.size()
         }
     }
 }
